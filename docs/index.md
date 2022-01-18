@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+# My Voron V2.4 Build Log
 
-You can use the [editor on GitHub](https://github.com/markcarroll/voron_v2.4/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Mods
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Afterburner PCB
 
-### Markdown
+I decided on Hartk1213's ["Voron Afterburner Toolhead Board v3.rabbit (also known as ERCF PCB board)"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB) since one day I may add a ERCF Filament changer.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You will also need a new PCB cover from [here](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB/STLs/Clockwork/Covers)
 
-```markdown
-Syntax highlighted code block
+Since the PCB has a temperature sensor built in, I ended up using [this cover with air vents](https://github.com/craxoor/VoronMods/blob/master/PCB%20Cover/STL/Afterburner-PCBCover-AirVents.stl)
 
-# Header 1
-## Header 2
-### Header 3
+Wiring Diagram [here](https://github.com/VoronDesign/Voron-Hardware/blob/master/Afterburner_Toolhead_PCB/Images/Rev3.2/wiringDiagram.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```txt
+Pinout 
+24V  - HE0 +V 
+GND  - PSU -V (NOT MAINS GND)
+PROBE/ABL  - Probe Signal Pin
+HE0  - Hotend Heater -V
+CT   - Chamber Thermistor Signal Pin (TH1)
+PCF  - Part Cooling Fan -V
+HEF  - Hotend Cooling Fan -V
+AGND - Hotend Thermistor -V
+TH0  - Hotend Thermistor Signal Pin (TH0)
+XES  - X Endstop Signal Pin 
+S1A  - Red Stepper Wire
+S2A  - Green Stepper Wire
+S1B  - Blue Stepper Wire
+S2B  - Black Stepper Wire 
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Display Mount for 5" LCD
 
-### Jekyll Themes
+Mount:  
+<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/sttts/Waveshare-5.5-inch-HDMI-AMOLED/STLs/Voron-2.4-Mount-Generisch-v6.stl>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/markcarroll/voron_v2.4/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Frame:  
+<https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Bed Wagos
+
+https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/deepfriedheroin/v2_bed_wagos
+
+![Bed Wagos](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/deepfriedheroin/v2_bed_wagos/images/cad_image.jpg)
+.
