@@ -44,4 +44,6 @@ Frame:
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/deepfriedheroin/v2_bed_wagos
 
 ![Bed Wagos](https://github.com/VoronDesign/VoronUsers/blob/ef37f8709a9fe568c8f1ffa073bdab2cae82b404/printer_mods/deepfriedheroin/v2_bed_wagos/images/cad_image.jpg)
-.
+
+Use the bed Wago mount to make the bed wiring pluggable:
+![Bed wiring](https://github.com/VoronDesign/VoronUsers/blob/ef37f8709a9fe568c8f1ffa073bdab2cae82b404/printer_mods/deepfriedheroin/v2_bed_wagos/images/confusing_wiring_diagram.png)
