@@ -43,5 +43,5 @@ Frame:
 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/deepfriedheroin/v2_bed_wagos
 
-![Bed Wagos](https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/deepfriedheroin/v2_bed_wagos/images/cad_image.jpg)
+![Bed Wagos](https://github.com/VoronDesign/VoronUsers/blob/ef37f8709a9fe568c8f1ffa073bdab2cae82b404/printer_mods/deepfriedheroin/v2_bed_wagos/images/cad_image.jpg)
 .
