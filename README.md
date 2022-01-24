@@ -3,11 +3,11 @@
 - [My Voron V2.4 Build Log](#my-voron-v24-build-log)
   - [Build](#build)
     - [BOM](#bom)
-  - [Mods](#mods)
-    - [Afterburner PCB](#afterburner-pcb)
-    - [Display Mount for 5" LCD](#display-mount-for-5-lcd)
-    - [Bed Wagos](#bed-wagos)
-    - [Nevermore Micro](#nevermore-micro)
+- [Mods](#mods)
+  - [Afterburner PCB](#afterburner-pcb)
+  - [Display Mount for 5" LCD](#display-mount-for-5-lcd)
+  - [Bed Wagos](#bed-wagos)
+  - [Nevermore Micro](#nevermore-micro)
 
 ## Build
 
@@ -80,9 +80,9 @@ Ordered parts from Amazon, [West3D](https://west3d.com), [DigMach](https://store
 
 ---
 
-## Mods
+# Mods
 
-### Afterburner PCB
+## Afterburner PCB
 
 I decided on Hartk1213's ["Voron Afterburner Toolhead Board v3.rabbit (also known as ERCF PCB board)"](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB) since one day I may add a ERCF Filament changer.
 
@@ -110,7 +110,7 @@ S1B  - Blue Stepper Wire
 S2B  - Black Stepper Wire
 ```
 
-### Display Mount for 5" LCD
+## Display Mount for 5" LCD
 
 Mount:  
 <https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/sttts/Waveshare-5.5-inch-HDMI-AMOLED/STLs/Voron-2.4-Mount-Generisch-v6.stl>
@@ -118,7 +118,7 @@ Mount:
 Frame:  
 <https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/alanho/BTT_PITFT50_v2_Mount>
 
-### Bed Wagos
+## Bed Wagos
 
 <https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/deepfriedheroin/v2_bed_wagos>
 
@@ -127,6 +127,6 @@ Frame:
 Use the bed Wago mount to make the bed wiring pluggable:
 ![Bed wiring](https://github.com/VoronDesign/VoronUsers/blob/ef37f8709a9fe568c8f1ffa073bdab2cae82b404/printer_mods/deepfriedheroin/v2_bed_wagos/images/confusing_wiring_diagram.png?raw=true)
 
-### Nevermore Micro
+## Nevermore Micro
 
 Instead of the extractor filter and fan I am installing the [Nevermore Micro V5 Duo](https://github.com/nevermore3d/Nevermore_Micro) mod.
